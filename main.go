@@ -99,4 +99,14 @@ func main() {
 			course.ID, course.Name, course.Duration, course.EnrolledStudentsCount)
 	}
 
+	x := []int{1, 2, 3}
+
+	for num := range x {
+		fmt.Print(num)
+	}
+
+}
+
+func funcna() (int, bool) {
+	return 0, true
 }
